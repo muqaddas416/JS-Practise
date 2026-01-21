@@ -55,3 +55,11 @@
 // const result = (marks >= 40) ? ("Pass" ): ("Fail ")
 // console.log(result);
     
+
+                 // Template literal
+
+let Name= "Muqaddas";
+let degree= "Bscs";
+let batch = 2025;
+
+console.log(`My name is "${Name}"my degree is ${degree} and my batch year is ${batch}`);
