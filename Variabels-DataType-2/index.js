@@ -29,5 +29,5 @@
 // const x = 3.14
 // x=4.5
 // console.log(x)
-let z;
-console.log(z);
+// let z;
+// console.log(z);
