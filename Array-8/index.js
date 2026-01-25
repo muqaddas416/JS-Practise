@@ -113,8 +113,25 @@
 // flat array can flat the sub array and merge and spread like one when you flat it 
 // it return us a new array
 
-let subArray = ["mu","noor",["ali","fatima",["samavia","ramazan"]]];
-let newArr = subArray.flat(2);
-console.log(newArr);
+// let subArray = ["mu","noor",["ali","fatima",["samavia","ramazan"]]];
+// let newArr = subArray.flat(2);
+// console.log(newArr);
 
 /////////////////////////////////////Sorting or functional methods or array////////////////////////
+//  map method gives you the new array it take a function
+
+// let arr = [1,2,3,4];
+// let newArr= arr.map((item,index,arr)=>{
+//     return item*2;
+
+    // console.log(item,index,arr)
+// })
+// console.log(newArr)
+
+/// filter method is just give you a true false value it use when you make a decision
+
+let filter = [1,3,10,9,8];
+let test = filter.filter((item)=>{
+    return item%2 === 0;
+})
+console.log(test);
