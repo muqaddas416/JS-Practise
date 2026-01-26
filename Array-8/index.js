@@ -129,9 +129,37 @@
 // console.log(newArr)
 
 /// filter method is just give you a true false value it use when you make a decision
+// it give you your array and data doesnot change any thing 
 
-let filter = [1,3,10,9,8];
-let test = filter.filter((item)=>{
-    return item%2 === 0;
-})
-console.log(test);
+// let filter = [1,3,10,9,8];
+// let test = filter.filter((item)=>{
+//     return item%2 === 0;
+// })
+// console.log(test);
+
+// redues method n javascript
+// reduce() array ke sab elements ko mila kar ONE value bana deta hai
+// (jese sum, total, average, object, etc.)
+
+// let number = [1,2,3,4];
+// let result = number.reduce((preVal,currVal)=>{
+//     return preVal + currVal;
+// })
+
+// console.log(result);
+
+// how to count an average of a student by using redues method
+
+// let marks = [1,2,3,4,5];
+
+// let result=marks.reduce((prev,crr)=>{
+//     return prev + crr ;
+// })
+
+// let average = result/marks.length
+// console.log(`Total=${result}`)
+// console.log(`Average=${average}`)
+
+// let n= 25;
+// let newArr = new Array(n).fill(0);
+// console.log(newArr);
